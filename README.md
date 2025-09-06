@@ -1,3 +1,5 @@
+# qb_wateroverride (Template)
+
 This companion resource helps apply water level overrides for tsunami flooding by restarting itself with a phase:
 - `normal` – default water
 - `flood`  – mid-level flood

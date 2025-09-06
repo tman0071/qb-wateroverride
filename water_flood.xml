@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaterData>
+  <!-- Light flooding across most coastal/low areas. -->
+  <WaterQuads>
+    <Item>
+      <minX value="-4000"/>
+      <maxX value="4500"/>
+      <minY value="-4000"/>
+      <maxY value="8000"/>
+      <Type value="0"/>
+      <IsInvisible value="false"/>
+      <HasLimitedDepth value="false"/>
+      <!-- Elevate water height slightly above sea level -->
+      <z value="8.0"/>
+      <a1 value="26"/>
+      <a2 value="26"/>
+      <a3 value="26"/>
+      <a4 value="26"/>
+      <NoStencil value="false"/>
+    </Item>
+  </WaterQuads>
+
+  <!-- Gentle long-wave motion -->
+  <WaveQuads>
+    <Item>
+      <minX value="-4000"/>
+      <maxX value="4500"/>
+      <minY value="-4000"/>
+      <maxY value="8000"/>
+      <!-- Lower amplitude = longer, smoother waves -->
+      <Amplitude value="5.0"/>
+      <XDirection value="1.0"/>
+      <YDirection value="0.2"/>
+    </Item>
+  </WaveQuads>
+</WaterData>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaterData>
+  <!-- Maximum flooding: deep water across Los Santos. -->
+  <WaterQuads>
+    <Item>
+      <minX value="-4000"/>
+      <maxX value="4500"/>
+      <minY value="-4000"/>
+      <maxY value="8000"/>
+      <Type value="0"/>
+      <IsInvisible value="false"/>
+      <HasLimitedDepth value="false"/>
+      <!-- Raise water higher for severe flood -->
+      <z value="15.0"/>
+      <a1 value="26"/>
+      <a2 value="26"/>
+      <a3 value="26"/>
+      <a4 value="26"/>
+      <NoStencil value="false"/>
+    </Item>
+  </WaterQuads>
+
+  <!-- Stronger wave motion -->
+  <WaveQuads>
+    <Item>
+      <minX value="-4000"/>
+      <maxX value="4500"/>
+      <minY value="-4000"/>
+      <maxY value="8000"/>
+      <!-- Bigger amplitude = higher, choppier waves -->
+      <Amplitude value="15.0"/>
+      <XDirection value="1.0"/>
+      <YDirection value="0.4"/>
+    </Item>
+  </WaveQuads>
+</WaterData>
